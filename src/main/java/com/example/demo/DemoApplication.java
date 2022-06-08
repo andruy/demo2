@@ -18,5 +18,9 @@ public class DemoApplication {
 			return "Hello Revature";
 	}
 
+	@GetMapping("/guest")
+	public String guest(){
+		return "Hello Guest";
+	}
 
 }
